@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.box{
+   height: 65px;
+   width: 50px;
+   display: flex;
+   position: relative;
+   /* justify-content: center; */
+   padding: 5px;
+   margin: 0.6em;
+   align-items: center;
+   cursor: pointer;
+   transition: all 0.4s;
+
+}
+.box:hover{
+    width: 160px;
+    border-radius: 40px;
+    background: pink;
+    color: white;
+    box-shadow: pink;
+}
+.box:nth-child(2):hover{
+    background: blue;
+    box-shadow: blue;
+}
+.box:nth-child(3):hover{
+    background: skyblue;
+    box-shadow: skyblue;
+}
+.box:nth-child(4):hover{
+    background: rgb(111, 246, 27);
+    box-shadow:  rgb(111, 246, 27);
+}
+p{
+    transform: translate(30px);
+}
+
+
